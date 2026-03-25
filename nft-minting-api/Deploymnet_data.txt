@@ -1,0 +1,4 @@
+PS D:\2-6_plan_work daily\Web3 Projects\Beautosys_project_test\nft-minting-api> npx hardhat run scripts/deploy.js --network amoy
+[dotenv@17.3.1] injecting env (2) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+Contract deployed to: 0x2B53b5668ff3eC51731ccCb92f8f0a0FA14c6b3d
