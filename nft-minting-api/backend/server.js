@@ -34,6 +34,14 @@ app.post("/mint", async (req, res) => {
       });
     }
 
+   if (!ethers.isAddress(walletAddress)) {
+      return res.status(400).json({
+        success: false,
+        message: "Invalid wallet address",
+      });
+    }
+
+
     const mintPrice = await contract.mintPrice();
 
     const tx = await contract.mint(walletAddress, {
